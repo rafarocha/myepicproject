@@ -1,10 +1,11 @@
 # myepicproject
 
-Atualmente com dificuldades no deploy com o comando `anchor deploy --provider.cluster devnet`
-https://gist.github.com/rafarocha/09b3a4c06380b4cf611dcf6fd988fd8c
 
-Na etapa 
-https://build.w3d.community/courses/Solana_And_Web3/lessons/Lesson_1_Deploy_Program_To_Devnet.md
+Atualmente com dificuldades no deploy com o comando `anchor deploy --provider.cluster devnet`. Abaixo snippet de código com comando e log de error.
+- https://gist.github.com/rafarocha/09b3a4c06380b4cf611dcf6fd988fd8c
+
+Atualmente na etapa 🚀 Fazendo deploy na devnet
+- https://build.w3d.community/courses/Solana_And_Web3/lessons/Lesson_1_Deploy_Program_To_Devnet.md
 
 Setup atual
 ```
@@ -17,8 +18,6 @@ anchor-cli 0.27.0
 ```
 
 Arquivos relacionados 
-```
-cargo.toml https://github.com/rafarocha/myepicproject/blob/master/programs/myepicproject/Cargo.toml
-anchor.toml https://github.com/rafarocha/myepicproject/blob/master/Anchor.toml
-package.json https://github.com/rafarocha/myepicproject/blob/master/package.json
-```
+- cargo.toml https://github.com/rafarocha/myepicproject/blob/master/programs/myepicproject/Cargo.toml
+- anchor.toml https://github.com/rafarocha/myepicproject/blob/master/Anchor.toml
+- package.json https://github.com/rafarocha/myepicproject/blob/master/package.json
