@@ -1,5 +1,7 @@
 const anchor = require("@project-serum/anchor");
 const { SystemProgram } = anchor.web3;
+const borsh = require("@project-serum/borsh");
+
 
 const main = async () => {
   console.log("🚀 Iniciando testes...");
@@ -36,6 +38,7 @@ const main = async () => {
 
   // Acessa o gif_list na conta
   console.log("👀 GIF List", account.gifList);
+
 };
 
 const runMain = async () => {
